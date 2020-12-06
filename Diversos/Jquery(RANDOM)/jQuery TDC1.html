@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>jQuery TDC1</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
+    <script type="text/javascript" src="../jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+
+
+        $(document).ready(function () {
+
+            /*
+                       
+                       $('h1').css("color", "#006eff");
+                       $('h1').hide();
+                       $('h1').delay('1000');
+                       $('h1').fadeIn("slow");
+                       $('h1').text('Testando codigos jQuary')
+                   });
+                   
+                   */
+
+            /* $('h1').css("color", "#006eff").hide().delay('1000').fadeIn("slow").text('Testando codigos jQuary'); */
+
+            /* $('h1')
+                 .css("color", "#006eff")
+                 .hide().delay('1000')
+                 .fadeIn("slow")
+                 .text('Testando codigos jQuary')
+                 .click(function () {
+                     $('body').css("background", "#00ff2ac9")
+                     $('h1').css("color", "#fff");
+                 });
+ */
+
+            $('a').css({ color: 'red', display: 'block' });
+            $('.link2').css("color", "green");
+            $('#link3').css("color", "black");
+            $('*').css("margin", "10px");
+            $('h1, #link3').css("border-bottom", "solid 1px green")
+        });
+
+
+    </script>
+</head>
+
+<body>
+
+    <h1>Teste de codigos</h1>
+
+    <a href="#">Link 1</a>
+    <a href="#" class="link2">Link 2</a>
+    <a href="#" id="link3">Link 3</a>
+</body>
+
+</html>
